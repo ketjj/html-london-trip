@@ -11,10 +11,13 @@
 <body>
   <header>
     <h1>Il mio Viaggio a Londra</h1>
-     <img src="img/pexels-bill-emrich-230794-0.jpg" alt="londoneye">
-     <img src="img/pexels-bill-emrich-230794-1.jpg" alt="eyetower">
-     <img src="img/pexels-bill-emrich-230794-2.jpg" alt="bigben">
-     <hr>
+    <div class="Gallery">
+      <img src="img/pexels-bill-emrich-230794-0.jpg" alt="londoneye">
+      <img src="img/pexels-bill-emrich-230794-1.jpg" alt="eyetower">
+      <img src="img/pexels-bill-emrich-230794-2.jpg" alt="bigben">
+    </div>
+    <hr>
+
   </header>
 
   <main>
@@ -30,6 +33,8 @@
               <th>Costo</th>
             </tr>
           </thead>
+
+          <!-- /intestazione tabella -->
 
           <!-- corpo tabella -->
           <tbody>
@@ -50,15 +55,21 @@
               <td>Biglietto Aereo</td>
               <td>120 &euro;</td>
             </tr>
+          </tbody>
 
+          <!-- /corpo tabella -->
+        
+          <tfoot>
             <tr>
               <td colspan="2">1</td>
               <td>120 &euro;</td>
             </tr>
-          </tbody>
+          </tfoot>
+
         </table>
         <hr>
       </div>
+
       <div class="cosedafare">
         <h3>Cose da fare</h3>
         <ul>
@@ -72,44 +83,53 @@
       <div class="infoutili">
         <h3>Info utili:</h3>
          <ol>
-           <li>Numeri utili per emergenza
+           <li>
+             <span>Numeri utili per emergenza</span>
              <ul>
                <li><strong>911</strong> Emergenza</li>
                <li><strong>101</strong> Numero polizia</li>
                <li><strong>111</strong> Numero assistenza medica</li>
              </ul>
            </li>
-         </ol>
 
-         <ol start="2">
-          <li>Hotel
-            <ul>
-              <li><strong>Nome hotel</strong> Buckingham Palace</li>
-              <li><strong>Indirizzo hotel</strong> Westmister, London SW1A1AA, Regno Unito</li>
-            </ul>
-          </li>
-        </ol>
 
-        <ol start="3">
-          <li>Aereo
-            <ul>
-              <li><strong>Volo di Andata</strong> Y1234X, ore 9.30 da Milano Malpensa</li>
-              <li><strong>Volo di Ritorno</strong> Y1236X, ore 18.30 da London Heathrow</li>
-            </ul>
-          </li>
-        </ol>
+           <li>
+             <span>Hotel</span>
+             <ul>
+               <li><strong>Nome hotel</strong> Buckingham Palace</li>
+               <li><strong>Indirizzo hotel</strong> Westmister, London SW1A1AA, Regno Unito</li>
+             </ul>
+           </li>
+
+           <li>
+             <span>Aereo</span>
+             <ul>
+               <li><strong>Volo di Andata</strong> Y1234X, ore 9.30 da Milano Malpensa</li>
+               <li><strong>Volo di Ritorno</strong> Y1236X, ore 18.30 da London Heathrow</li>
+             </ul>
+           </li>
+
+          </ol>
+
         <hr>
 
       </div>
     </section>
+
+
+    <h3>Le foto</h3>
+
+    <div>
+      <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="londonatnight">
+    
+      <img src="https://pokerstarscareers.com/wp-content/uploads/2020/01/London-Wider-Area-e1597319992670-400x400.jpg" alt="londonwiderarea">
+    </div>
+
+
   </main>
 
-  <footer>
-    <h3>Le foto</h3>
-    <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="londonatnight">
 
-    <img src="https://pokerstarscareers.com/wp-content/uploads/2020/01/London-Wider-Area-e1597319992670-400x400.jpg" alt="londonwiderarea">
-  </footer>
+
   
 </body>
 </html>
